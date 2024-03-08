@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DataAccess\" />
+    <None Remove="DataAccess\Concretes\" />
+    <None Remove="DataAccess\Abstracts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataAccess\" />
+    <Folder Include="DataAccess\Concretes\" />
+    <Folder Include="DataAccess\Abstracts\" />
+  </ItemGroup>
 </Project>
